@@ -1,0 +1,102 @@
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(150deg, rgba(255,255,255,0), #ffffff59), url("https://w0.peakpx.com/wallpaper/918/275/HD-wallpaper-book-under-a-tree-best-bible-christian-friend-light-rosary-scripture-verses.jpg");
+    background-size: cover;
+    padding: 0 15px;
+    position: relative;
+    font-family: "Lato", sans-serif;
+}
+
+.back{
+    position: absolute;
+    color: white;
+    top: 8%;
+    left: 8%;
+    font-size: 50px;
+    
+}
+
+.loginTitle{
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(170, 170, 170);
+}
+
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+}
+
+.loginForm > label{
+    margin: 10px 0;
+    font-size: 24px;
+    font-weight: 550;
+    color: rgb(170, 170, 170);
+}
+
+.loginInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+    color: black;
+    font-size: 20px;
+    border-radius: 12px;
+}
+
+.loginButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    color: white;
+    font-size: 18px;
+    padding: 8px 0;
+    width: 150px;
+    align-self: center;
+    border-radius: 15px;
+    font-weight: 600;
+}
+
+.loginButton:disabled{
+    cursor: not-allowed;
+    background-color: red;
+}
+
+
+.registerButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(44, 65, 161);
+    color: white;
+    font-size: 18px;
+    padding: 8px 0;
+    width: 150px;
+    align-self: center;
+    border-radius: 15px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+
+
+
+
+@media(max-width:650px){
+    .loginForm{
+        width: 90%;
+    }
+}
+
+
+@media(max-width:300px){
+    .back{
+        font-size: 35px;
+    }
+}

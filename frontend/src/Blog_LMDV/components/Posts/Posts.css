@@ -1,0 +1,21 @@
+.posts{
+    flex: 9;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (max-width:768px){
+    .posts{
+        flex: 1;
+    }
+}
+
+@media (max-width:400px) {
+    .posts{
+        margin: 10px;
+    }
+}

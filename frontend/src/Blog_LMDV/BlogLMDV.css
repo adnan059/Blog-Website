@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Merriweather:ital,wght@1,300;1,400;1,700&family=Sora&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+:root {
+  --dark-color: rgba(41, 40, 40, 0.966);
+}
+
+/* html {
+  font-family: "Lato", sans-serif;
+font-family: "Merriweather", serif;
+  font-family: "Sora", sans-serif;
+} */
+
+a{
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}

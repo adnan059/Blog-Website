@@ -1,0 +1,62 @@
+.write{
+    padding-top: 50px;
+}
+
+.writeImg{
+    margin-left: 130px;
+    height: 250px;
+    width: 70vw;
+    object-fit: cover;
+}
+
+
+
+.writeFormGroup{
+    margin-left: 130px;
+    display: flex;
+    align-items: center;
+}
+
+.writeIcon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid;
+    cursor: pointer;
+    padding: 6px
+}
+
+.writeInput{
+    font-size: 30px;
+    border: none;
+    padding: 20px;
+    width: 70vw;
+}
+
+.writeText{
+    font-size: 20px;
+}
+
+.writeSubmit{
+   margin-left: 130px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+@media (max-width:650px){
+    .writeImg, .writeFormGroup, .writeSubmit{
+        margin-left: 80px;
+    }
+}
+
+
+
+@media (max-width:600px){
+    .writeImg, .writeFormGroup, .writeSubmit{
+        margin-left: 50px;
+    }
+}
+

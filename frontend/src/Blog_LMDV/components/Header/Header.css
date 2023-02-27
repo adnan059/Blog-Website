@@ -1,0 +1,46 @@
+
+.header{
+    position: relative;
+}
+.headerTitles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    font-style: italic;
+    font-family: "Sora", sans-serif;
+}
+
+.headerTitleSm{
+    position: absolute;
+    top: 22%;
+    font-size: 20px;
+
+}
+.headerTitleLg{
+    position: absolute;
+    top: 26%;
+    font-size: 70px;
+    margin-top: 15px;
+}
+
+.headerImg{
+    width: 100%;
+}
+
+
+@media (max-width:550px){
+  
+    .headerTitleLg{
+        font-size: 50px;
+    }
+}
+
+@media (max-width:350px){
+    .headerTitleSm{
+font-size: 16px;
+    }
+    .headerTitleLg{
+        font-size: 30px;
+    }
+}
